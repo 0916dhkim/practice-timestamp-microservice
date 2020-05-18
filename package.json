@@ -1,0 +1,19 @@
+{
+  "name": "practice-timestamp-microservice",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0916dhkim/practice-timestamp-microservice.git"
+  },
+  "author": "Donghyeon Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0916dhkim/practice-timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/0916dhkim/practice-timestamp-microservice#readme"
+}
