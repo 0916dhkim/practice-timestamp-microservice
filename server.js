@@ -3,7 +3,17 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 function timestamp(str) {
-    return {};
+    const date = str === undefined ? new Date() : new Date(str);
+    if (Number.isNaN(date.valueOf())) {
+        return {
+            error: "Invalid Date"
+        };
+    }
+
+    return {
+        unix: date.getTime(),
+        utc: date.toUTCString()
+    };
 }
 
 app.get("/", (req, res) => res.send("Hello, World!"));
