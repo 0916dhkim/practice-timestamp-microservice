@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/0916dhkim/practice-timestamp-microservice/issues"
   },
-  "homepage": "https://github.com/0916dhkim/practice-timestamp-microservice#readme"
+  "homepage": "https://github.com/0916dhkim/practice-timestamp-microservice#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
